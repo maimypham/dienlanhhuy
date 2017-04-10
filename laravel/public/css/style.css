@@ -1,0 +1,32 @@
+.hide-top {
+	top: inherit;
+	
+}
+
+.background-black {
+	background-color: black
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+  .change-color-autosize {
+  	background-color: blue
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+  .change-color-autosize {
+  	background-color: red
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+  .change-color-autosize {
+  	background-color: yellow
+  }
+}
